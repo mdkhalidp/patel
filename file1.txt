@@ -1,1 +1,4 @@
+<<<<<< HEAD
 hello wel come first git
+=======
+

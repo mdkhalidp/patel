@@ -1,0 +1,5 @@
+3apple
+bat
+6cat
+dog
+1elephant
