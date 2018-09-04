@@ -31,20 +31,22 @@
 	y
 
 # File marks:
-'0  4  0  ~/file1.txt
-'1  2  0  ~/file1.txt
-'2  1  0  ~/file1.txt
-'3  1  0  ~/file1.py
-'4  1  0  /bin/host
-'5  1  0  /usr/host
-'6  2  0  /etc/hostname
-'7  15  0  ~/kp/file1.py
-'8  16  0  ~/kp/file1.py
-'9  1  0  ~/kp/file1.py
+'0  2  4  ~/test1.text
+'1  1  0  ~/file1.txt
+'2  4  0  ~/file1.txt
+'3  2  0  ~/file1.txt
+'4  1  0  ~/file1.py
+'5  1  0  /bin/host
+'6  1  0  /usr/host
+'7  2  0  /etc/hostname
+'8  15  0  ~/kp/file1.py
+'9  16  0  ~/kp/file1.py
 
 # Jumplist (newest first):
--'  4  0  ~/file1.txt
+-'  2  4  ~/test1.text
+-'  1  0  ~/test1.text
 -'  1  0  ~/file1.txt
+-'  4  0  ~/file1.txt
 -'  2  0  ~/file1.txt
 -'  1  0  ~/file1.py
 -'  1  0  /bin/host
@@ -140,12 +142,17 @@
 -'  5  0  ~/kp.txt
 -'  1  0  ~/kp.txt
 -'  2  0  /etc/passwd
--'  1  0  /etc/passwd
 
 # History of marks within files (newest to oldest):
 
+> ~/test1.text
+	"	2	4
+	^	2	5
+	.	2	4
+	+	2	4
+
 > ~/file1.txt
-	"	4	0
+	"	1	0
 	^	4	0
 	.	4	0
 	+	1	0
