@@ -1,4 +1,5 @@
-<<<<<< HEAD
-hello wel come first git
-=======
+
+hello
+wel come first git
+
 
